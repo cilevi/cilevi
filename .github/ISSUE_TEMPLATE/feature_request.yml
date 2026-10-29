@@ -1,0 +1,36 @@
+name: Feature request
+description: Something you would like Cilevi to do.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before you write, have a look at the [roadmap](https://cilevi.com/roadmap) and the [feedback board](https://cilevi.com/feedback). The idea may already be planned, or have votes you can add to.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The video you are making and where Cilevi gets in the way. This matters more than the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+      description: How you picture it working.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How you do it today
+      description: Another app, a workaround, or not at all.
+  - type: dropdown
+    id: system
+    attributes:
+      label: Windows or Mac
+      options:
+        - Windows
+        - Mac
+        - Both

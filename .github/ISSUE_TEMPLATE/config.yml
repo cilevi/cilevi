@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/cilevi/cilevi/discussions
+    about: Ask how to do something, or share an idea and talk it over.
+  - name: Private support on cilevi.com
+    url: https://cilevi.com/support
+    about: For your purchase, your licence key, or anything you would rather not post in public.
+  - name: The Cilevi guide
+    url: https://cilevi.com/guide
+    about: Seventy short articles, one for each part of the app.

@@ -1,0 +1,65 @@
+name: Bug report
+description: Something in Cilevi does not work the way it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time. Issues are public, so please leave out email addresses, licence keys and anything else private. For a problem with a purchase or a key, write to support@cilevi.com instead.
+  - type: input
+    id: version
+    attributes:
+      label: Cilevi version
+      description: In the Studio, open Menu and choose About Cilevi. Copy the whole Version line.
+      placeholder: "Version 2.4.1 ..."
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: Windows or Mac
+      options:
+        - Windows 11
+        - Windows 10
+        - Mac
+    validations:
+      required: true
+  - type: input
+    id: system_version
+    attributes:
+      label: System version
+      description: On Windows, Settings, System, About. On a Mac, Apple menu, About This Mac.
+      placeholder: "Windows 11 24H2"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen
+      description: Step by step, so somebody else could do the same and see the same thing.
+      placeholder: |
+        1. Record a window with the camera on
+        2. Open the take in the Studio
+        3. Press Export
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+      description: The exact words of any message, and a screenshot if it helps.
+    validations:
+      required: true
+  - type: dropdown
+    id: how_often
+    attributes:
+      label: How often
+      options:
+        - Every time
+        - Sometimes
+        - Once so far
