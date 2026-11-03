@@ -4,6 +4,14 @@ Every version of Cilevi that reached the Microsoft Store, newest first. The Stor
 
 Cilevi for Mac is waiting for Apple's review. Its notes will start here once it is in the Mac App Store.
 
+## Cilevi 2.5.0, 2 November 2026
+
+- The recorder stays open beside the Studio. You can record the Studio itself, and a new take opens in the Studio you already have open. If that project has unsaved changes, Cilevi asks first.
+- The first time Cilevi starts, an editable sample project opens beside the recorder, so you can try zooms, the pointer, lift and titles on a real timeline before you record anything. **Menu > Open sample project** brings it back whenever you like. It is built into the app and needs no download.
+- Export no longer asks you to save the project first. Cilevi keeps an automatic backup and asks about saving when you close the Studio.
+- **Tutorials**, next to **Export**, opens the Cilevi tutorials on YouTube.
+- The camera plays smoothly in the Studio preview.
+
 ## Cilevi 2.4.1, 29 October 2026
 
 - Cilevi now speaks Spanish. Choose **Language** in the recorder's settings menu or in the Studio's menu to switch between English and Spanish.
