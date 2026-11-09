@@ -4,6 +4,14 @@ Every version of Cilevi that reached the Microsoft Store, newest first. The Stor
 
 Cilevi for Mac is waiting for Apple's review. Its notes will start here once it is in the Mac App Store.
 
+## Cilevi 2.6.1, 8 November 2026
+
+- Recordings now open at their full length. The last second is no longer cut off in the Studio and in exports, and the end of a take no longer freezes.
+
+## Cilevi 2.6.0, 3 November 2026
+
+- Trial copies send short, limited usage reports until 3 January 2027, after you accept the updated privacy policy. They help us improve the first-run experience and our advertising. Paid copies send none, and nothing you record is ever sent. The privacy policy lists every event.
+
 ## Cilevi 2.5.0, 2 November 2026
 
 - The recorder stays open beside the Studio. You can record the Studio itself, and a new take opens in the Studio you already have open. If that project has unsaved changes, Cilevi asks first.
